@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Work Sans Light'), local('WorkSans-Light'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh314L8mNhL.woff) format('woff');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v3/QGYsz_wNahGAdqQ43Rh_fKDv.woff) format('woff');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Work Sans SemiBold'), local('WorkSans-SemiBold'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3o4T8mNhL.woff) format('woff');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Work Sans Bold'), local('WorkSans-Bold'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3x4X8mNhL.woff) format('woff');
+}

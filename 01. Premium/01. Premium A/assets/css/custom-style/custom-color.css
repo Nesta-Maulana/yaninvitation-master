@@ -1,0 +1,299 @@
+
+body ::selection { 
+	background:#f393ebcf; /* warna untuk selector kalo di mau block konten */
+	color:white; 
+} 
+
+body ::-moz-selection { 
+	background:#f393ebcf; /* warna untuk selector kalo di mau block konten */ 
+	color:white; 
+}
+
+.spmenu {
+    background: url(../../images/icon/heart.png) no-repeat;
+	background-size: cover;
+}
+
+/* Middle Color
+=================================================== */
+
+body {
+	color:#fde2e2;/* warna untuk body*/
+}
+
+a:hover {
+	color: #5B6E71;
+}
+
+.lead {
+    color: #455658;
+}
+
+p,
+.bold,
+.loveline li h4 span,
+.loveline li .timeline-title span {
+	color:#fde2e2;
+}
+
+.btn-default,
+.btn-default.btn-default-reverse:hover {
+	color:#5B6E71;
+	background:#F2FEFF;
+}
+
+/* Background Color For Section BG, Social Icons loader 
+=================================================== */
+
+.content_overlay_bgcolor95 {
+	background:rgba(198, 233, 239, 0.95);
+}
+
+.content_overlay_bgcolor9 {
+	background:rgba(198, 233, 239, 0.9);
+}
+
+.content_overlay_bgcolor85 {
+	background:#fab7b7a3; /* warna untuk background color body*/
+	/*background-color: ;*/
+}
+
+.content_overlay_bgcolor8 {
+	background:rgba(198, 233, 239, 0.8)
+}
+
+.content_overlay_bgcolor75 {
+	background:rgba(198, 233, 239, 0.75);
+}
+
+.content_overlay_bgcolor7 {
+	background:rgba(198, 233, 239, 0.7);
+}
+
+.content_overlay_bgcolor65 {
+	background:rgba(198, 233, 239, 0.65)
+}
+
+.content_overlay_bgcolor6 {
+	background:rgba(198, 233, 239, 0.6);
+}
+
+.content_overlay_bgcolor55 {
+	background:rgba(198, 233, 239, 0.55)
+}
+
+.content_overlay_bgcolor5 {
+	background:rgba(198, 233, 239, 0.55)
+}
+
+/* Menu and Other Section
+=================================================== */
+a,
+span a {
+	color: #618B92;
+}
+
+.icon-heart:before,
+.left-heart {
+	/*color: #92B7BD; */
+	color: #e19999;/* warna untuk icon heart di nama pengantin icon sebelah kanan */ 
+
+}
+
+.btn-default:hover, 
+.btn-default.active, 
+.btn-default.active:hover,
+.btn-default.btn-default-reverse {
+	background-color:#87ADB3;
+}
+
+.btn-default:hover:before,  
+.btn-default.active:before,
+.btn-default.active:hover:before {
+	border: 1px solid #87ADB3;
+}
+
+.rl-title span,
+.rl-title small,
+.rl-line i { 
+	color: #fab7b7; /* warna untuk tulisan diheader */ 
+}
+
+.icon-heart:after,
+.right-heart {
+	color: #e19999;/* warna untuk icon heart di nama pengantin icon sebelah kiri */ 
+}
+
+.left-section:before {
+	color: blue; 
+}
+
+.main-nav ul.nav li:hover a, 
+.main-nav ul.nav li a.selected,
+.white-menu .selected1, 
+.white-menu .selected1:hover,
+.yellow-menu .selected1, 
+.yellow-menu .selected1:hover { 
+	color: #e19999; /* warna untuk merubah menu hover  */
+}
+
+h2 small {
+	color: #fff;
+}
+
+.gal-top .prev, 
+.gal-top .next {
+	background: #87ADB3;
+}
+
+button.close,
+button.close:hover { 
+	background:#87ADB3;
+}
+
+.heading-seperator .heading-left-seperator:before, 
+.heading-seperator .heading-left-seperator:after, 
+.heading-seperator .heading-right-seperator:before, 
+.heading-seperator .heading-right-seperator:after {
+    border: 1px solid #f5a8a8; /* warna untuk garis di kanan kiri nama pengantin*/
+    border-left: none;
+    border-right: none;
+}
+
+.spmenu i { 
+	color:#436065;
+}
+
+/* Menu and Other Section Rgba Colors
+=================================================== */
+#main-menu .main-nav ul ul li a:hover, 
+#main-menu .main-nav ul ul li a.selected,
+#sub-menu .main-nav ul ul li a:hover, 
+#sub-menu .main-nav ul ul li a.selected {
+	background: rgba(255,255,255,  0.98);
+}
+
+.cycle-overlay div { 
+	background: rgba(255,255,255,  .8);
+}
+
+.slicknav_nav,
+.slicknav_nav li ul li a:hover {
+	background: rgba(255,255,255, 0.98);
+}
+
+.slicknav_menu .slicknav_icon-bar {
+	background:#87ADB3;
+}
+
+.thumbnail:hover:before {
+	background:rgba(253, 226, 226, 0.65); /* warna hver pada frame foto mempelai*/
+}
+
+.half-filed-box,
+.right-section,
+.loveline .whole,
+.content-bg,
+#reservation_form input[type="text"], 
+#reservation_form textarea, .select {
+	background:url(../../img/patterns/absurdidad.png) rgba(250, 227, 217, 0.72); /* warna background box keterangan mempelai*/
+}
+
+li:nth-child(odd) .whole::after {
+    border-right: 10px solid rgba(240, 244, 245,.98);
+}
+
+.loveline .whole::after {
+    border-left: 10px solid rgba(240, 244, 245,.98);
+}
+
+.countdown-timer-boxed.countdown_timer li a {
+	background:rgba(255,255,255, 0.95);
+}
+
+.copyright {
+	background:rgba(255,255,255,  .2);
+}
+
+.reserve_form input:focus, .reserve_form textarea:focus ,input:valid:focus{ 
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255,255,255, 0.8);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255,255,255, 0.8);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255,255,255, 0.8); 
+}
+
+/* Seperator */
+.accura-seperator {
+    background-image: -webkit-linear-gradient(left, transparent, rgba(255,255,255,  0.95), transparent);
+    background-image: linear-gradient(to right, transparent, rgba(255,255,255,  0.95), transparent);
+}
+
+.accura-seperator {
+    border-bottom: 1px solid rgba(255,255,255,  0.95)\9;
+}
+/* Seperator */
+
+@media (max-width: 990px) {
+.loveline .whole::after, 
+li:nth-child(odd) .whole::after {
+    border-bottom: 10px solid rgba(240, 244, 245,.98);
+	border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+}
+
+/* Dark Color
+=================================================== */
+
+.icon-mild,
+.wedd-date small {
+    color: #87ADB3;
+}
+
+.loveline-loc {
+	border:3px solid #87ADB3;
+}
+
+.nicescroll-rails div {
+	background:#87ADB3!important;
+}
+
+.brand .date {
+	background:#87ADB3;
+}
+
+/* Secoundary 
+=================================================== */
+h1 {
+	color:#3A484A;
+}
+
+h2 {
+	color:#455254;
+}
+
+/* Other 
+=================================================== */
+
+h3,
+h4,
+.color-mild {
+    color: #4F5E61;
+}
+
+.text-white
+{
+	color: #fff;
+}
+
+.text-black
+{
+	color: #000;
+}
+.text-color-1
+{
+	color: #e19999
+}
+.text-bolder
+{
+	font-weight: 900;
+}

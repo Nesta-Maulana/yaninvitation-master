@@ -1,0 +1,247 @@
+@font-face {
+	font-family: quicksand-reg;
+	src: url("../../../../00.global_assets/fonts/Quicksand-Regular.ttf");
+}
+
+@font-face {
+	font-family: quicksand-bold;
+	src: url("../../../../00.global_assets/fonts/Quicksand-bold.ttf");
+}
+
+@font-face {
+	font-family: quicksand-med;
+	src: url("../../../../00.global_assets/fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+	font-family: quicksand-light;
+	src: url("../../../../00.global_assets/fonts/Quicksand-Light.ttf");
+}
+
+@font-face {
+	font-family: sacramento;
+	src: url("../../../../00.global_assets/fonts/Sacramento.ttf");
+}
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	/* color: #777; */
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+	position: relative;
+	/* opacity: 0.65; */
+	background-color: black;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bgimg-1 {
+	background-image: url("../../../../00.global_assets/images/couple/couple-bg.jpg");
+	min-height: 100%;
+}
+
+.bgimg-2 {
+	background-image: url("../../00.global_assets/images/brides/women-vector.jpg");
+	min-height: 400px;
+}
+
+.bgimg-3 {
+	background-image: url("../../00.global_assets/images/couple/3.jpg");
+	min-height: 400px;
+}
+
+.caption {
+	position: absolute;
+	left: 0;
+	top: 0%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-family: quicksand-reg;
+	position: block;
+	/* Sit on top of the page content */
+	width: 100%;
+	/* Full width (cover the whole page) */
+	height: 100%;
+	/* Full height (cover the whole page) */
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Black background with opacity */
+	z-index: 2;
+	/* Specify a stack order in case you're using a different order for other elements */
+	/* cursor: pointer; */
+	/* Add a pointer on hover */
+}
+
+.header-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.title-text {
+	font-size: 28px;
+}
+
+.decor {
+	width: 100%;
+}
+
+.decor-top {
+	-webkit-transform: scaleY(-1);
+	margin-bottom: 15px;
+}
+
+.decor-bot {
+	width: 100%;
+}
+
+.countdown {
+	display: flex;
+}
+
+.days-text {
+	font-size: 25px;
+	font-weight: 900;
+	font-family: quicksand-light;
+}
+
+.hour-text {
+	font-size: 25px;
+	font-weight: 900;
+	font-family: quicksand-light;
+}
+
+.minute-text {
+	font-size: 25px;
+	font-weight: 900;
+	font-family: quicksand-light;
+}
+
+.second-text {
+	font-size: 25px;
+	font-weight: 900;
+	font-family: quicksand-light;
+}
+
+.btn-save-the-date {
+	background: #f1c40f!important;
+	color: #fff;
+	font-weight: 900;
+}
+
+.btn-save-the-date:hover {
+	background: #b8991f!important;
+	color: #fff;
+	border-color: 1px solid #fff;
+}
+
+.btn-save-the-date:focus {
+	background: #b8991f!important;
+	color: #fff;
+	border-color: 1px solid #fff;
+}
+
+.caption span.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+}
+
+.overlay {
+	position: block;
+	/* Sit on top of the page content */
+	width: 100%;
+	/* Full width (cover the whole page) */
+	height: 100%;
+	/* Full height (cover the whole page) */
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Black background with opacity */
+	z-index: 2;
+	/* Specify a stack order in case you're using a different order for other elements */
+	/* cursor: pointer; */
+	/* Add a pointer on hover */
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+
+/* @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+  } */
+
+.brand-text {
+	font-family: sacramento;
+	font-size: 30px;
+	font-weight: bold;
+}
+.menu
+{
+	flex-grow: 0;
+}
+@media (min-width: 682px) {
+	
+	.brand-text {
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg {
+	  /* -ms-flex-flow: row nowrap; */
+	  /* flex-flow: row nowrap; */
+	  -ms-flex-pack: start;
+	  justify-content: flex-start;
+	}
+	.navbar-expand-lg {
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	}
+	.navbar-nav {
+		-ms-flex-direction: row;
+	  flex-direction: row;
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu {
+	  position: absolute;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+	  padding-right: 0.5rem;
+	  padding-left: 0.5rem;
+	}
+	.navbar-expand-lg > .container,
+	.navbar-expand-lg > .container-fluid {
+	  -ms-flex-wrap: nowrap;
+	  flex-wrap: nowrap;
+	}
+	.navbar-expand-lg .navbar-collapse {
+	  display: -ms-flexbox !important;
+	  display: flex !important;
+	  -ms-flex-preferred-size: auto;
+	  flex-basis: auto;
+	}
+	.navbar-expand-lg .navbar-toggler {
+	  display: none;
+	}
+ }

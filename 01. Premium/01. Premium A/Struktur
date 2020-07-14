@@ -1,0 +1,12 @@
+Struktur 
+1. Perubahan Loading Animation Heart -> File index.html , color1.css -> line 13
+2. Perubahan warna pada halaman home bisa di ubah custom-color.css
+3. background color pada tanggal dan lokasi acara pada home bisa diubah di halaman index 
+4. Perubahan warna backgroudn body bisa diubah di custom color yang class conten overlay atau merubah nama class yang ada
+
+Couple
+
+1. ubah border pada frame foto mempelai -> style.css line 296
+2. ubah hover pada frame foto mempelai -> custom-color.css line 
+3. Merubah text color pada frame hover foto  mempelai -> style.css line 627
+4. Merubah warna background pada box keterangan mempelai --> custom color line 198

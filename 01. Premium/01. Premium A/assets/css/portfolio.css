@@ -1,0 +1,148 @@
+
+/* =Portfolio
+=========================================== */
+
+.portfolio {
+	overflow:hidden
+}
+
+#filters {
+  padding: 0;
+  margin: 0 auto;
+  padding-top:0px;
+  padding-bottom:30px;
+  float: none;
+  list-style: none;
+  text-align: center;
+}
+
+#filters li {
+	margin:5px 5px 20px 5px;
+	font-size: 14px;
+    font-weight: 700;
+}
+
+.portfolio-grid{
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.portfolio-grid .thumbnail {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.portfolio-grid:before, 
+.portfolio-grid:after {
+  content: " ";
+  display: table;
+}
+
+.portfolio-grid:after {
+  clear: both;
+}
+
+#portfolio-grid li {
+  display: none;
+}
+
+.portfolio-grid li {
+  width: 25%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  line-height:0;
+}
+
+.three_half .portfolio-grid li { 
+	width:33%;
+}
+
+.two_half .portfolio-grid li { 
+	width:50%;
+}
+
+.two_half .portfolio-grid { 
+	margin-top:0;
+}
+
+.portfolio-grid li:hover .project-overlay {
+  opacity: 1;
+}
+
+.portfolio-grid li img {
+	width: 100%;
+	transition: 0.8s ease;
+	-webkit-transform: scale(1.12);
+	-moz-transform: scale(1.12);
+	-ms-transform: scale(1.12);
+	-o-transform: scale(1.12);
+	transform: scale(1.12);
+}
+
+.portfolio-grid li:hover img {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	transition: 0.8s ease;
+	-webkit-transition: 0.8s ease;
+	-moz-transition: 0.8s ease;
+	-ms-transition: 0.8s ease;
+}
+
+.project-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	right:0;
+	opacity: 0;
+	transition: 1s ease;
+	padding:22% 5%;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	text-transform: capitalize;
+	font-weight: 300;
+	line-height: 23px;
+	letter-spacing:1px;
+}
+
+.project-overlay span {
+	font-style: italic;  
+}
+
+.portfolio-grid li:hover .project-overlay { 
+	cursor: url(../img/pointer.png),crosshair; 
+	background:rgba(17,17,17,.7); 
+}
+
+.project-overlay h3{
+	color: #fff;
+	font-size:20px;
+}
+
+
+/* Media Queries
+=============================================== */
+@media (max-width: 991px) {
+.portfolio-grid li {
+	width: 50%;
+}
+}
+
+@media (max-width: 480px) {
+.portfolio-grid li {
+	width: 100%;
+}
+
+.two_half .portfolio-grid li { 
+	width:100%;
+}
+}
+
