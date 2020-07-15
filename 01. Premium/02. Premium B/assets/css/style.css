@@ -92,10 +92,15 @@ html {
 .title-text {
 	font-size: 28px;
 }
-
-.decor {
-	width: 100%;
+.brand-text {
+	font-family: sacramento;
+	font-size: 27px;
+	font-weight: bold;
 }
+.decor {
+	width: 300px;
+}
+
 
 .decor-top {
 	-webkit-transform: scaleY(-1);
@@ -138,6 +143,8 @@ html {
 	background: #f1c40f!important;
 	color: #fff;
 	font-weight: 900;
+	border-radius: 20px;
+	height: 50px;
 }
 
 .btn-save-the-date:hover {
@@ -150,6 +157,36 @@ html {
 	background: #b8991f!important;
 	color: #fff;
 	border-color: 1px solid #fff;
+}
+
+.title-text > .brand-text
+{
+	font-size: 40px
+}
+@media (min-width: 992px) 
+{
+	.decor {
+		width: 500px;
+	}
+	.title-text > .brand-text
+	{
+		font-size: 60px
+	}
+	.days-text {
+		font-size: 35px;
+	}
+
+	.hour-text {
+		font-size: 35px;
+	}
+
+	.minute-text {
+		font-size: 35px;
+	}
+
+	.second-text {
+		font-size: 35px;
+	}
 }
 
 .caption span.border {
@@ -192,9 +229,17 @@ h3 {
     }
   } */
 
-.brand-text {
+
+
+.first-brand-text {
+	font-family: quicksand-light;
+	font-size: 20px;
+	font-weight: bold;
+}
+.second-brand-text {
 	font-family: sacramento;
-	font-size: 30px;
+	/*padding-top: 0px*/
+	font-size: 40px;
 	font-weight: bold;
 }
 .menu
@@ -203,7 +248,10 @@ h3 {
 }
 @media (min-width: 682px) {
 	
-	.brand-text {
+	.first-brand-text {
+		font-size: 20px;
+	}
+	.second-brand-text {
 		font-size: 60px;
 	}
 }
@@ -244,4 +292,117 @@ h3 {
 	.navbar-expand-lg .navbar-toggler {
 	  display: none;
 	}
- }
+}
+.text-menu
+{
+	font-size: 20px;
+	font-weight: 900;
+	color:#f0ae2c !important;
+}
+
+.text-menu:hover
+{
+	color:#f5d061 !important;
+}
+
+.active {
+	color : #cf7500 !important
+}
+
+.web-box
+{
+	background-color: #f7f7f5;
+    padding: 20px;
+}
+
+.content-box
+{
+	/*min-height: 700px;*/
+	background-color: #f0f0f0;
+    padding: 0px 0px 0px 0px;
+
+}
+.image-box
+{
+	background-position: top;
+    background-size: cover;
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque praesentium ad doloremque voluptatem quas quis laborum nobis! Omnis quas, dolore qui enim quam doloremque rerum aut dolores ad recusandae.";
+}
+.image-box:first-child
+{
+    background-image: url(../../../../00.global_assets/images/groom/men-vector.jpg); 
+}
+.box-content
+{
+	height: 100%;
+	background-color: #f0f0f0;
+	border: 3px solid black;
+	border-radius: 0;
+}
+
+.save-the-date
+{
+	padding: 30px 20px;
+}
+
+.save-the-date-text
+{
+	font-family: sacramento;
+	font-size: 40px;
+	font-weight: 900;
+}
+.save-the-date-caption	
+{
+	font-family: quicksand-reg;
+	font-size: 18px;
+	text-align: center;
+}
+.save-the-date-event
+{
+	font-size: 18px;
+	font-family: quicksand-light;
+	font-weight: 900;
+}
+.save-the-date-event > .time
+{
+	font-size: 20px;
+	font-family: monospace;
+}
+.save-the-date-location
+{
+	font-size: 20px;
+	font-family: quicksand-med;
+}
+.save-the-date-location > .street
+{
+	font-size: 15px;
+}
+@media (min-width: 992px) 
+{
+	.box-content
+	{
+		min-height: 600px;
+	}	
+	.image-box
+	{
+		min-height: 700px;
+	}
+	.content-box
+	{
+    	padding:50px 0px 50px 0px;
+	}	
+
+	.save-the-date-text
+	{
+		font-size: 60px;
+	}
+	.save-the-date
+	{
+		padding: 50px 50px;
+	}
+	.save-the-date-event
+	{
+		font-size: 23px;
+	}
+}
+
