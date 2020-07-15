@@ -315,34 +315,32 @@ h3 {
     padding: 20px;
 }
 
+.border-transparent
+{
+	border: 0px;
+}
+
+.content-text
+{
+	border: 1px solid black;
+	min-height: 600px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 .content-box
 {
-	/*min-height: 700px;*/
-	background-color: #f0f0f0;
-    padding: 0px 0px 0px 0px;
-
+	border-radius: 0px;
+	background: transparent;
+	border: transparent;
+	min-height: 600px;
 }
-.image-box
+.content-box-text-frame
 {
-	background-position: top;
-    background-size: cover;
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat atque praesentium ad doloremque voluptatem quas quis laborum nobis! Omnis quas, dolore qui enim quam doloremque rerum aut dolores ad recusandae.";
-}
-.image-box:first-child
-{
-    background-image: url(../../../../00.global_assets/images/groom/men-vector.jpg); 
-}
-.box-content
-{
-	height: 100%;
-	background-color: #f0f0f0;
-	border: 3px solid black;
-	border-radius: 0;
-}
-
-.save-the-date
-{
-	padding: 30px 20px;
+	border: solid #58595B 1px;
+	text-align: center;
+	margin: auto;
+	padding: 80px 40px;
 }
 
 .save-the-date-text
@@ -358,7 +356,7 @@ h3 {
 	text-align: center;
 }
 .save-the-date-event
-{
+{	
 	font-size: 18px;
 	font-family: quicksand-light;
 	font-weight: 900;
@@ -377,32 +375,51 @@ h3 {
 {
 	font-size: 15px;
 }
-@media (min-width: 992px) 
+.image-content
 {
-	.box-content
-	{
-		min-height: 600px;
-	}	
-	.image-box
-	{
-		min-height: 700px;
-	}
-	.content-box
-	{
-    	padding:50px 0px 50px 0px;
-	}	
-
-	.save-the-date-text
-	{
-		font-size: 60px;
-	}
-	.save-the-date
-	{
-		padding: 50px 50px;
-	}
-	.save-the-date-event
-	{
-		font-size: 23px;
-	}
+	padding:0px;
 }
-
+.image-box
+{
+	background-position: top;
+    background-size: cover;
+	min-height: 640px;
+}
+.home-event-bg
+{
+    background-image: url(../../../../00.global_assets/images/couple/10.jpg); 
+}
+.rsvp-wish-bg{
+    background-image: url(../../../../00.global_assets/images/couple/3.jpg); 
+}
+.rsvp-text
+{
+	font-family: sacramento;
+	font-size: 37.7px;
+	font-weight: 900;
+}
+.name-text
+{
+	font-size: 25px;
+	font-family: quicksand-med;
+	color:#dfa906;
+	height: calc(3.25rem + 2px);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.name-text::placeholder {
+	color: #dfac15;
+	opacity: 1; /* Firefox */
+}
+.name-text:focus {
+	color: hsla(45, 95%, 41%, 0.984);
+	opacity: 1;
+	box-shadow: none;
+	outline: none;
+	border-bottom: 2px solid hsla(45, 95%, 41%, 0.984);
+}
+.btn .btn-primary .active
+{
+	font-size: 2000px;
+}
