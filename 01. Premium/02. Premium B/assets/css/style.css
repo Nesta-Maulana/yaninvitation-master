@@ -419,7 +419,106 @@ h3 {
 	outline: none;
 	border-bottom: 2px solid hsla(45, 95%, 41%, 0.984);
 }
-.btn .btn-primary .active
+
+label.active {
+	color : #fff !important
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle
 {
-	font-size: 2000px;
+	background-color: #cf7500;
+	border-color:#fff ;
+}
+
+.btn-attending
+{
+	background-color: #b8991f;
+	border-color: #fff;
+	font-weight: bolder;
+	line-height: 2.9;
+}
+.btn-attending:hover
+{
+	background-color: #f1c40f;
+	border-color: #fff;
+	/* font-weight: 200; */
+	line-height: 2.9;
+}
+
+.btn-open-maps
+{
+	background-color: #b8991f;
+	border-color: #fff;
+	font-weight: bolder;
+}
+.btn-open-maps:hover
+{
+	background-color: #f1c40f;
+	border-color: #fff;	
+}
+
+.wish-text
+{
+	font-size: 15px;
+	font-family: quicksand-med;
+	color:#dfa906;
+	height: calc(3.25rem + 2px);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+.wish-text::placeholder {
+	color: #dfac15;
+	opacity: 1; /* Firefox */
+}
+.wish-text:focus {
+	color: hsla(45, 95%, 41%, 0.984);
+	opacity: 1;
+	box-shadow: none;
+	outline: none;
+	border-bottom: 2px solid hsla(45, 95%, 41%, 0.984);
+}
+.btn-send-wish
+{
+	background-color: #dfa906;
+	font-weight: bolder;
+	border-color: #fff;
+}
+
+.btn-send-wish:hover
+{
+	background-color: #cf7500;
+	font-weight: bolder;
+	border-color: #fff;
+}
+.couple-image
+{
+	background-color: #ffc107;
+	height: 300px;
+}
+.bridesmaid-bg
+{
+	background-image: url(../../../../00.global_assets/images/brides/women.jpg); 
+}
+
+.groom-bg
+{
+	background-image: url(../../../../00.global_assets/images/groom/mens.jpg); 
+}
+.couple-name
+{
+	font-family: quicksand-reg;
+	font-size: 30px;
+	font-weight: 900;
+}
+.parents-name
+{
+	font-family: quicksand-med;
+	font-size: 18px;
+	text-align: center;	
+}
+
+.text-countdown
+{
+	color:#cf7500;
+	font-size: 20px !important;
 }
